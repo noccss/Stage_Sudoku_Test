@@ -25,6 +25,8 @@ pygame.init()
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Stage Sudoku")
+icon = pygame.image.load("./asset/icon.png")
+pygame.display.set_icon(icon)
 
 
 class SudokuPrint:
@@ -44,9 +46,7 @@ class SudokuValidate:
     def verify_repeated_numbers(grid):
         def print_error(position_error, repeated_number, direction, quantity_error):
             print(False)
-            print("Explanation:")
-            print("No solution exists")
-            print(f"There does not exist a valid Sudoku for the input grid, since there are {quantity_error} {repeated_number}s in the {position_error + 1} {direction}.\nWhich cannot be replaced.")
+            print(f"Explanation:\nNo solution exists\nThere does not exist a valid Sudoku for the input grid, since there are {quantity_error} {repeated_number}s in the {position_error + 1} {direction}.\nWhich cannot be replaced.")
 
         for row in range(len(grid)):
             for num in range(1, len(grid) + 1):
