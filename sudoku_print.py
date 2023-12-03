@@ -12,3 +12,4 @@ class SudokuPrint:
             if SudokuValidate.verify_repeated_numbers(grid):
                 return
             SudokuPrint.print_grid(grid)
+        else: print("No solution exists")
