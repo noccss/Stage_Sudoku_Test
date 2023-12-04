@@ -18,9 +18,6 @@ Sudoku is a number-placement puzzle. The objective is to fill a 9x9 grid with di
 - Using Make: `make run`
 - Without Make: `python ./main.py`
 
-## Usage
-Provide detailed instructions on how to use the application, including how to input initial Sudoku values or any customization options.
-
 ## Contact
 For more information about the project, you can send an email to: [nicolas.olicarvalho@gmail.com](mailto:nicolas.olicarvalho@gmail.com).
 
