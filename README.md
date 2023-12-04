@@ -7,12 +7,26 @@ This project aims to solve a specific 9x9 Sudoku puzzle in a matrix defined by t
 Sudoku is a number-placement puzzle. The objective is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids (also known as regions or boxes) contain all of the digits from 1 to 9.
 
 ## How to Install
+Before running the Sudoku solver, ensure you have the following dependencies installed:
+
+- [Python](https://www.python.org/downloads/): The script requires Python to run.
+- [pip](https://pip.pypa.io/en/stable/installation/): The Python package installer is needed to install project dependencies.
+
+### Optional: Make
+- [Make](https://www.gnu.org/software/make/): Make is used to simplify the build process.
+
+#### On Linux
+1. Install Make: `sudo apt-get install make`
+
+### Optional: Using Makefile
 1. Clone the repository: `git clone https://github.com/noccss/Stage_Sudoku_Test.git`
 2. Install dependencies with Makefile: `make install`
 
 ### Alternative Installation without Make
 1. Clone the repository: `git clone https://github.com/noccss/Stage_Sudoku_Test.git`
 2. Install the dependency with pip: `pip install pygame`
+
+If you don't have pip installed, you can follow the [official installation guide](https://pip.pypa.io/en/stable/installation/) to get it.
 
 ## How to Run the Application
 - Using Make: `make run`
@@ -24,9 +38,11 @@ For more information about the project, you can send an email to: [nicolas.olica
 ## Images of the Application
 
 ![Sudoku Template](asset/screenshot/sudoku_template.png)
+
 *Description: An example of the initial Sudoku puzzle.*
 
 ![Sudoku Solved](asset/screenshot/sudoku_solved.png)
+
 *Description: The Sudoku puzzle after being successfully solved.*
 
 ## Sudoku Rules (Detailed)
