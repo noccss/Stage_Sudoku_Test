@@ -6,6 +6,9 @@ This project aims to solve a specific 9x9 Sudoku puzzle in a matrix defined by t
 ## Sudoku Rules
 Sudoku is a number-placement puzzle. The objective is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 subgrids (also known as regions or boxes) contain all of the digits from 1 to 9.
 
+## Usability
+Press the space bar to fill and complete Sudoku.
+
 ## How to Install
 Before running the Sudoku solver, ensure you have the following dependencies installed:
 
